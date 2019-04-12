@@ -683,10 +683,22 @@ public class myMain {
         scanForMinterm(arr);
         scanForDoNotCare(arr);
         removeDublicates(arr);  
-      //  System.out.println("A7ad is "+arr.size());
+       
         if(arr.size() ==((1<<numberOfVariables)+1))
         {
         	System.out.println("Your function is always one " );
+        	return;
+        }
+        // determine if there is no minterms 
+        boolean minterm = false;
+        for(minterm tmp : arr)
+        {
+        	if(tmp.doICare == true)
+        		minterm = true;
+        }
+        if(minterm == false)
+        {
+        	System.out.println("Your function in minimum form is zero " );
         	return;
         }
         makeProgramLoop(arr);
