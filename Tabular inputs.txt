@@ -1,0 +1,119 @@
+minterms: : 0 1 3 5 13 15
+don't care : 2 6 10 11 12
+result : A'B' +BC'D+ABD
+>>>>>>
+_________________________
+****minterms: : 0 1 2 3 6 8 9 10 11 17 20 21 23 25 28 30 31 ( 5 variables) 
+don't care : 
+result : A'C'+A'B'DE'+C'D'E+AB'CD'+ACDE+ABCE'
+            A'C'+A'B'DE'+C'D'E+AB'CD'+ACDE+ABCE'
+_________________________
+minterms: : 0 1 2 5 6 7 8 9 10 14
+don't care : 
+result :a'bd + b'c' + cd'
+________________________
+minterms: : 0 1 3 5 13 15
+don't care : 2 6 10 11 12
+result : a'b'+bc'd+abd
+_________________________
+
+minterms: : 2 6 7 8 9
+don't care : 0 1 11 14 15 
+result :BC +B'C'+A'CD'
+_________________________
+minterms: :  0 1 5 7 10 14
+don't care :  15  
+result : A'B'C'+ACD'+A'BD
+_________________________
+minterms: : 0 2 3 5 7 8 9 
+don't care : 6 10 11 12 13 14 15
+result :B'D'+BD+C+A
+_________________________
+minterms: : 0 1 2 3 4 7 8 9
+don't care : 10 11 12 13 14 15
+result :C'D'+CD+B' 
+_________________________
+minterms: : 0 1  3 4 5 6 7 8 9 
+don't care : 10 11 12 13 14 15
+result : B +C'+D 
+(C IN SEVEN SSEGMENT)
+_________________________
+minterms: :0 2 6 8 9	
+don't care : 10 11 12 13 14 15 
+result :B'D'+CD'+A 
+_________________________
+
+minterms: : 0 2 6 7
+don't care : 10 11 12 13 14 15
+result :
+_________________________
+minterms: :5 6 7 8 9
+don't care : 10 11 12 13 14 15 
+result :A +BC +BD
+_________________________
+minterms: : 1 2 3 4 9
+don't care : 10 11 12 13 14 15 
+result : BC'D'+B'C+B'D
+_________________________
+minterms: :0 3 4 7 8
+don't care : 10 11 12 13 14 15 
+result :CD +C'D'
+_________________________
+minterms: :0 2 4 6 8
+don't care : 10 11 12 13 14 15 
+result : D'
+_________________________
+minterms: :0 1 2 5 6 7
+don't care :   (3 variables) 
+result : A'B'+BC'+AC
+_________________________
+minterms: :0 1 5 7 8 10 14
+don't care : 
+result :B'C'D'+A'C'D+BCD+ACD' (>>right answer)
+_________________________
+minterms: :0 2 6 7 8 10 11 12 13 14 16 18 19 29 30
+don't care :  4 9 21 	
+result :A'B'CD+BCDE'+AB'C'D+B'C'E'+A'BC'+BCD'E+A'E'
+_________________________
+minterms: :0 1 2 3 4 8 9 10 11 19 21 22 23 27 28 29 30
+don't care : 
+result :A'B'D'E'+C'DE+A'C'+AB'CE+ACDE'+ABCD'
+   f = A'C' + C'DE + A'B'D'E' + AB'CE + ACDE' + ABCD'
+   f = A'C' + C'DE + A'B'D'E' + ACD'E + AB'CD + ABCE'
+_________________________
+minterms: :24 28 39 47 70 86 88 92 102 105 118  (7 variables)
+don't care : 
+result : y = B'CDF'G' + AD'EFG' + A'BC'EFG + ABC'DE'F'G
+_________________________
+minterms: :0 2 3 5 8 11 13 20 25 26 30
+don't care : 6 7 9 24 
+result :AB'CD'E' + BC'D' + ABDE'+ A'B'C'E' + A'C'DE + A'CD'E
+>>>>AB'CD'E'+BC'D'+ABDE'+A'B'C'E'+A'C'DE+A'CD'E
+_________________________
+minterms: 2 3 4 5 6 7 8 183 237 (8 variables)
+don't care : 
+result :  A'B'C'D'EF'G'H' + +AB'CDE'FGH  A'B'C'D'E'G + A'B'C'D'E'F+ ABCD'EFG'H
+_________________________
+minterms: : 0 1 2 3 4 (8 variables)
+don't care : 246 247 248 249 250 251 252 253 254 255
+result :A'B'C'D'E'F' + A'B'C'D'E'G'H'
+_________________________
+minterms: :
+don't care : 
+result :
+_________________________
+minterms: :
+don't care : 
+result :
+_________________________
+minterms: :
+don't care : 
+result :
+_________________________
+minterms: :
+don't care : 
+result :
+_________________________
+minterms: :
+don't care : 
+result :
